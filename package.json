@@ -1,0 +1,21 @@
+{
+  "name": "cy-template-react",
+  "version": "0.0.3",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "description": "react 项目模板",
+  "license": "MIT",
+  "dependencies": {
+    "w-scene-react": "^1.0.0",
+    "react-wx-images-viewer": "^1.0.6",
+    "ts-import-plugin": "^1.5.5",
+    "typescript": "^3.2.1",
+    "postcss-pxtorem": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}

@@ -1,0 +1,149 @@
+.detail_container{
+  width: 100%;
+  .goods_info{
+    width: 100%;
+    text-align: left;
+    padding:.24rem .16rem;
+    background-color: white;
+    .info_price{
+      color:#ff5000;
+      .price_type{
+        font-size: .26rem;
+      }
+      .price_num{
+        font-size: .46rem;
+      }
+      .price_fav{
+        padding: 0.1rem;
+        margin-left: 0.1rem;
+        background: #FFF1EB;
+        font-size: 0.22rem;
+      }
+    }   
+  }
+  .good_desc{
+      margin: .2rem 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      font-size: .3rem;
+      width: 80%;
+      font-weight: 600
+  }
+  .good_other{
+    display:flex;
+    font-size: .28rem;
+    color:#999999;
+    span{
+      width: 33.33%;
+      text-align: center
+    }
+    .other_kuaidi{
+      text-align: left;
+    }
+    .other_dizhi{
+      text-align: right;
+    }
+  }
+  .sale_promotions{
+    padding:.24rem .16rem;
+    display: flex;
+    margin: .2rem 0;
+    background: #FEECE9;
+    align-items: center;
+    .promotion_icon{
+      width: 0.48rem;
+      height: 0.48rem;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      margin-right: .2rem;
+    }
+    .promotion_desc{
+      color:#ff5000;
+      font-size: .28rem;
+    }
+  }
+  .goods_detail{
+    .divide_bar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: .24rem;
+      .bar_line{
+        width: 10%;
+        height: .01rem;
+        background: #999;
+      }
+      .icon_info{
+        margin: 0 .1rem;
+        font-size: .28rem;
+        color:#999;
+      }
+    }
+    .detail_content{
+      font-size:0;
+      background-color: white;
+      padding:.24rem .16rem;
+      padding-bottom: 25px;
+      .desc_text{
+        text-align: center;
+        font-size: .32rem;
+      }
+      .desc_img{
+        margin:0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+      }
+    }
+  }
+  .bottom_bar{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding:0 5px;
+    bottom: 0;
+    .btn_shop,.btn_wangwang,.btn_fav{
+      width: 50px;
+      height: 50px;
+      display: flex;
+      padding:0 5px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; 
+    } 
+    .icon_text{
+        margin-top: 4px;
+        font-size: 12px;
+        color:red;
+    }
+    .btn_cart{
+      width: 50%;
+      color:white;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 40px;
+      height: 40px;
+      background: linear-gradient(to right, #FFC500, #FF9402);
+      cursor: pointer;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .btn_buy{
+      width: 50%;
+      color:white;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 40px;
+      height: 40px;
+      background: linear-gradient(to right, #FF7A00, #FE560A);
+      cursor: pointer;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+}

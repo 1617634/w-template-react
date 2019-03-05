@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esNext",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["./tsrc/*"]
+    }
+  },
+  "compileOnSave": false,
+  "filesGlob": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts",
+    "!./node_modules/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "includes": [
+    "./tsrc/externals.d.ts"
+  ]
+}
